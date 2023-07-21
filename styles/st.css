@@ -45,9 +45,10 @@ font-weight: 700;
     font-size: 18px;
     align-items: center;
     height: 45px;
-    margin-right: 50px;
+    margin-right: 100px;
     gap: 15px;
     padding: 10px;
+
 }
 
  li{
@@ -75,7 +76,7 @@ text-transform: uppercase;
 margin: 0px;
 }
 
-#goat
+.goat
 {
 font-family: Work Sans;
 font-size: 95px;
@@ -143,7 +144,7 @@ text-transform: uppercase;
 .png18
 {
     margin-right: 100px;
-    border: 5px solid red;
+  
 }
 
 /* end of banner */
@@ -158,22 +159,35 @@ text-transform: uppercase;
 .img-2
 {
     display: flex;
-    gap: 15px;
-    margin: 20px 100px;
-    margin-left: 145px;
+    gap: 15px; 
+     margin: 20px 100px;
+    margin-left: 150px;
+    justify-content: center;
+    margin-bottom: 100px;
+   /* s */
 
 }
 
 #rec7:hover
 {
-    border:5px solid #da00f2;
+    
     
 }
 
 .img22
 {
-    width:240px ;
+    width:250px ;
+    flex-shrink: 1px;
+
    
+}
+
+#img-22
+{
+    margin-right: 0px;
+    max-height: 240px;
+    max-width: 321px;
+/*     flex-shrink: 1; */
 }
 
 .online-games
@@ -200,7 +214,7 @@ margin-bottom: 0px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;
-
+    margin-bottom: 100px;
 }
 
 .img55
@@ -221,6 +235,8 @@ margin-bottom: 0px;
     max-height: 250px ;
     max-width: 150px;
     position: relative;
+    right: 450px;
+    top: 55px;
    
 }
 
@@ -229,3 +245,169 @@ margin-bottom: 0px;
     flex-direction: column;
 }
 
+
+.icon1
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 100px 30px 40px 20px;
+    font-weight:bold ;
+    gap: 10px;
+}
+
+.icon2
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 10px;
+    font-weight: bold ;
+}
+
+ .arcade-game
+{
+
+    display: flex;
+    border: 2px solid  #FF42A5;
+    border-radius: 50px;
+    background: #FFF;
+    color: #FF42A5;
+    align-items: center;
+    padding: 5px;
+    
+} 
+
+footer
+{
+    background-color: #0B0223;
+    color: #FFF;
+    text-align: center;
+    padding: auto;
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+}
+
+.link
+{
+    color: #FFF;
+    text-decoration: none;
+  
+}
+
+.link-head
+{
+  
+    margin-right: 15px;    
+    
+}
+
+#gamerr
+{
+    display: flex;
+    padding-right: 10px;
+} 
+
+#gam
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game-icon2
+{
+  height: 38px;
+  width: 50px;
+  margin-right: 8px;
+}
+
+.icon1{
+    display: flex;
+    gap: 20px;
+}
+
+.icon-img
+{
+    height: 20px;
+    width: 20px;
+}
+
+.priv ,.icon-img,.link{
+    margin: 8px;
+}
+
+.next-banner
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #cf418a33;
+    padding: 100px ;
+
+} 
+.next-banner-text
+{
+    text-align: right;
+    
+}
+
+
+.next-banner-img{
+
+    max-height: 500px ;
+    max-width: 500px;
+  
+}
+
+.we-are-gamer{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 38px;
+margin-bottom: 5px;
+}
+
+.next-banner-text-text
+{
+    font-size: 18px;
+font-style: normal;
+
+
+}
+
+#no-more-id
+{
+
+border: none;
+text-align: right;
+height: 50px;
+padding: 7px;
+font-size: 16px;
+ margin-right: 0px;
+margin-bottom: 3px; 
+}
+
+#our-purpose
+{
+    font-size: 22px;
+    margin-bottom: none;
+    margin: 0px;
+
+}
+
+#unleash
+{
+    
+    margin: 4px;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.next-banner-text
+{
+   /*  margin-right:200px ; */
+}
